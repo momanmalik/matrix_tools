@@ -32,6 +32,7 @@ elif mode == "matrix_rotate_right":
     print_matrix(matrix)
     print("Output: ")
     print_matrix(output)
+    print(output)
 elif mode == "matrix_stats":
     matrix_str = input("Please enter a matrix as a 2D list: ")
     matrix = ast.literal_eval(matrix_str)
@@ -52,6 +53,7 @@ elif mode == "matrixes_add":
     print('Output: ')
     output = matrixes_add(matrix1,matrix2)
     print_matrix(output)
+    print(output)
 elif mode == "matrixes_multiply":
     print("Please enter two matrices as a 2D list: ")
     matrix1_str = input("Matrix 1: ")
@@ -66,4 +68,5 @@ elif mode == "matrixes_multiply":
     print('Output: ')
     output = matrixes_multiply(matrix1,matrix2)
     print_matrix(output)
+    print(output)
     
